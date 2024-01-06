@@ -1,0 +1,55 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    position: absolute;
+    top: 57%;
+    left: 11%;
+    font-family: 'Abel';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $bg-primary-color;
+    font-size: $default-font-size;
+    background-color: $white-color;
+    padding: 1.5rem 2rem;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    animation: btn-move 0.5s ease-in;
+    -webkit-animation: btn-move 0.5s ease-in;
+    box-shadow: 0 1.5rem 2rem rgba($black-color, 0.3);
+    /* for <button> */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &,
+  &:hover {
+    background-color: $bg-primary-color;
+    color: $white-color;
+    transform: translateY(-0.4rem);
+    -webkit-transform: translateY(-0.4rem);
+    -moz-transform: translateY(-0.4rem);
+    -ms-transform: translateY(-0.4rem);
+    -o-transform: translateY(-0.4rem);
+    box-shadow: 0 2rem 2.5rem rgba($black-color, 0.4);
+  }
+
+  &,&:active {
+    color: $blue-primary;
+    background-color: $white-color;
+    transform: translateY(0.2rem);
+    -webkit-transform: translateY(0.2rem);
+    -moz-transform: translateY(0.2rem);
+    -ms-transform: translateY(0.2rem);
+    -o-transform: translateY(0.2rem);
+  }
+}

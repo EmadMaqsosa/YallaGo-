@@ -1,0 +1,42 @@
+.box {
+  &-text {
+    color: $bg-primary-color;
+    font-size: 3.5rem;
+    text-shadow: 0 0.7rem 1rem rgba($black-color, 0.5);
+  }
+  &-title {
+    color: $blue-primary;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 1rem 2rem rgba($black-color, 0.5);
+  }
+}
+
+.text {
+  &-ser {
+    color: $dark-mode;
+    margin-bottom: 1rem;
+  }
+  &-app{
+    position: relative;
+    top: -70vh;
+    right: 5vh;
+    color: $white-color;
+    h3{
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      text-shadow: 0 1rem 2rem rgba($black-color, 0.95);
+    }
+
+    h4{
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 1rem 2rem rgba($black-color, 0.95);
+    }
+
+    p{
+      text-shadow: 0 1rem 2rem rgba($black-color, 0.95);
+    }
+  }
+}

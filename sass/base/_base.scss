@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+
+  @include respond(phone) {
+    font-size: 40%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(big-disktop) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: $light-mode;
+}
+
+main {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/Abel-Regular.eot"),
+    url("../font/Abel-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/Abel-Regular.svg") format("svg"),
+    url("../font/Abel-Regular.woff") format("woff"),
+    url("../../font/Abel-Regular.ttf") format("truetype");
+}
+
+

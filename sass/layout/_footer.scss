@@ -1,0 +1,45 @@
+footer {
+  position: relative;
+  top: 195vh;
+  height: 40vh;
+  width: 100%;
+  padding: 3rem;
+  background-image: linear-gradient(
+    to right,
+    rgba($blue-light-primary, 0.2),
+    rgba($blue-primary, 0.7)
+  );
+  img {
+    margin: 6rem 0 0 4rem;
+  }
+  ul {
+    @include position;
+    list-style: none;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $bg-primary-color;
+    li {
+      display: inline-block;
+      margin: 0 1rem;
+      a {
+        text-decoration: none;
+        color: $bg-primary-color;
+        font-size: 2rem;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        &:hover {
+          padding: 0.5rem 1rem;
+          background-color: $dark-mode;
+          color: $light-mode;
+          border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          -ms-border-radius: 100px;
+          -o-border-radius: 100px;
+        }
+      }
+    }
+  }
+}

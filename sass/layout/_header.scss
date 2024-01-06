@@ -1,0 +1,34 @@
+.heading {
+  height: 100vh;
+  background-image: linear-gradient(70deg, $blue-primary 20%, transparent 60%),
+    url(../../img/bg.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 50% 100%, 0 80vh);
+  background-size: cover;
+  background-position: center;
+
+  &-title {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    animation: move 0.5s ease-in;
+    -webkit-animation: move 0.5s ease-in;
+  }
+}
+
+.box-logo {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+
+.logo {
+  height: 9rem;
+  width: 9.5rem;
+  padding: 0.4rem;
+  outline: 2px $blue-primary solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

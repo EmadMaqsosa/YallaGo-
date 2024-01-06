@@ -1,0 +1,29 @@
+.sec {
+  &-services {
+    height: 100vh;
+    box-sizing: border-box;
+    h2{
+      margin-top: 5rem;
+    }
+  }
+
+  &-app {
+    height: 91.5vh;
+    width: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      $blue-primary ,
+      $blue-primary 
+    );
+    .btn{
+      position: absolute;
+      top: 40vh;
+      left: 20vh;
+    }
+  }
+
+  &-sign{
+    height: 100vh;
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.phone{
+    position: relative;
+    top: -80vh;
+    left: 5vh;
+    z-index: 3;
+    height: 70vh;
+    filter: drop-shadow(0 1.5rem 2rem rgba($black-color,0.5));
+    -webkit-filter: drop-shadow(0 1.5rem 2rem rgba($black-color,0.5));
+    -moz-filter: drop-shadow(5px 5px 10px rgba($black-color,0.6));
+    -ms-filter: drop-shadow(5px 5px 10px rgba($black-color,0.6));
+    -o-filter: drop-shadow(5px 5px 10px rgba($black-color,0.6));
+}
